@@ -30,8 +30,10 @@
 *.blend@
 *.blend~
 
-# Ignore all .blend files except ones you intentionally keep in /Source
+# Ignore all .blend files
 *.blend
+
+# EXCEPT keep ones in /Source (any subfolder inside it too)
 !Source/**/*.blend
 
 # --- OS junk ---
