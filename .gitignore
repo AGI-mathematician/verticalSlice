@@ -1,0 +1,39 @@
+# Vertical Slice Gitignore
+
+# --- Unity ---
+[Ll]ibrary/
+[Tt]emp/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+[Bb]in/
+[Oo]bj/
+
+# Crash and auto-generated files
+*.pidb
+*.booproj
+*.suo
+*.user
+*.userprefs
+*.csproj
+*.unityproj
+*.sln
+*.swp
+*.tmp
+*.svd
+*.pdb
+
+# --- Blender ---
+*.blend1
+*.blend2
+*.blend@
+*.blend~
+
+# Ignore all .blend files except ones you intentionally keep in /Source
+*.blend
+!Source/**/*.blend
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
